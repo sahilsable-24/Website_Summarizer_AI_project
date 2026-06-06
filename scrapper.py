@@ -13,7 +13,7 @@ def fetch_website_content(url):
     if soup.body:
         for irrelevant in soup.body(["script", "style", "img", "input"]):
             irrelevant.decompose()
-        text = soup.body.get_text(sepreator="\n", strip=True)
+        text = soup.body.get_text(separator="\n", strip=True)
     else:
         text = ""
     return (title + "\n\n" + text)[:2_000]
