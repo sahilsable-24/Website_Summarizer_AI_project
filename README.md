@@ -20,7 +20,8 @@ A Python-based AI tool that scrapes the content of any website and generates a c
 Website_Summarizer_AI_project/
 │
 ├── scrapper.py                  # Web scraping utilities (fetch content & links)
-├── website_summarizer_ai.ipynb  # Main Jupyter Notebook (summarization logic)
+├── Website_summarizer_(Using ollama).ipynb  # Main Jupyter Notebook (summarization logic without any api)
+├── website_summarizer_ai(Using open ai api key).ipynb  # Main Jupyter Notebook (summarization logic using open ai api)
 ├── requirements.txt             # Python dependencies
 ├── .env                         # API key configuration (not committed to VCS)
 └── README.md
@@ -53,10 +54,10 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ### 4. Run the notebook
 
-Open `website_summarizer_ai.ipynb` in Jupyter and run the cells:
+Open `website_summarizer_ai(Using open ai api key).ipynb` in Jupyter and run the cells:
 
 ```bash
-jupyter notebook website_summarizer_ai.ipynb
+jupyter notebook website_summarizer_ai(Using open ai api key).ipynb
 ```
 
 ---
